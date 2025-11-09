@@ -40,4 +40,31 @@ It blends UX storytelling, ANSI styling, and timed progress to create a cinemati
 ## 🎥 Demo
 Add a short GIF to bring it to life:
 ```text
-assets/alchemy_demo.gif
+<p align="center"> <img src="assets/alchemy_demo.gif" alt="Alchemize demo" width="85%"/> </p>
+
+⭐ Features
+Animated progress bars + smooth typing effects
+Shadow vs Light detection with themed banners
+Built-in synonym mapping (“hurt” → pain, “happy” → joy, etc.)
+Quick menu shortcuts: m (menu), q (quit)
+Adjustable speed coefficient for animation pacing
+
+⚙️ Installation
+# Option A: Install directly from the folder
+pip install .
+
+# Option B: Editable (development) install
+pip install -e .
+Requires Python 3.8+.
+On macOS, use python3 and optionally a virtual environment.
+
+🧭 Project Structure
+alchemize/
+├─ alchemize/
+│  ├─ __init__.py
+│  └─ __main__.py
+├─ README.md
+├─ pyproject.toml
+└─ assets/
+   ├─ banner_alchemize.png   # top banner (recommended 2000x500)
+   └─ alchemy_demo.gif       # short looping demo
