@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alchemize"
+version = "0.1.1"
+description = "Turn emotions into gold: a tiny terminal alchemy console with glow, progress bar, and typing effects."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Alec & ChatGPT"}]
+keywords = ["cli", "terminal", "mindset", "affirmations", "self-care"]
+dependencies = ["colorama>=0.4.6"]
+
+[project.scripts]
+alchemize = "alchemize.__main__:main"
