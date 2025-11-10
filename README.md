@@ -1,7 +1,7 @@
-<!-- Banner -->
 <p align="center">
   <img src="assets/banner_alchemize.png" alt="Alchemize – Emotional Transmutation Console" width="100%" />
 </p>
+
 
 <h1 align="center">🧪 Alchemize — Emotional Transmutation Console</h1>
 <p align="center">
